@@ -25,15 +25,18 @@ con el ID especial. */
 /* 4. Establece un margen exterior de 10 píxeles y un margen interior de 5 píxeles para
 todos los elementos de la página. */
 
- { COMPLETAR: COMPLETAR; COMPLETAR: COMPLETAR; }
+* { 
+    margin: 10px; 
+    padding: 10px; }
 
 /* 5. Haz que los encabezados <h1> y <h2> tengan el mismo estilo: color rojo y texto
 centrado. */ 
 
-COMPLETAR, COMPLETAR { COMPLETAR: COMPLETAR; text-align:
-center; }
+h1, h2 { 
+    color: red; 
+    text-align: center; }
 
 /* 6. Cambia el color del texto a morado solo para los párrafos (<p>) que tengan la clase
 importante. */ 
 
-COMEPLTAR.COMPLETAR { color: #BC00FF; }
+p.importante { color: #BC00FF; }
